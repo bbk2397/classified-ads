@@ -1,0 +1,52 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#one, #two, #three, #four {
+    position: fixed;
+    padding: 5px;
+    margin: 5px;
+    width: 160px;
+    border: 5px solid;
+}
+
+#one {
+    bottom: 20px;
+    right: 10px;
+    border-color: blue;
+}
+
+#two {
+    top: 20px;
+    right: 10px;
+    border-color: green;
+}
+
+#three {
+    top: 20px;
+    left: 10px;
+    border-color: orange;
+}
+
+#four {
+    bottom: 20px;
+    left: 10px;
+    border-color: yellow;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+    width: 37px;
+    font-family: Roboto Corbel Avenir;
+    padding: 5px;
+    background-color: #0A4B33;
+
+}
+
+#link a {
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: bold;
+}
